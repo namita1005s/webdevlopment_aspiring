@@ -1,0 +1,61 @@
+.container {
+   background-color: aqua;
+   margin-left: 200px;
+   margin-top: 150px;
+   position: relative;
+    height: 1000px;
+
+}
+.newcontainer{
+    background-color: brown;
+    height: 800px;
+}
+.box{
+    
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+    
+
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+    /* position: fixed; */
+    position: sticky;
+    top: 30px;
+    /* fixed viewport ko dekh k position badalta h */
+
+    /* position: absolute; */
+    /* absolute apni position chor deta h koi bhi element a sakta h */
+    /* position: relative; */
+    /* origional s 20px neeche kar do originall position s */
+    /* top: 30px;
+    right: 30px; */
+    /* top,bottom,left,right */
+    /* static by deafault hota h  koi change nahi hota */
+}
+.box3{
+    background-color: green;
+   
+}
+.box4{
+    background-color: blue;
+}
+/* top,bottom,left,right */
+/* static */
+/* relative  */
+/* absolute apne parent ko dekh k position change karta h */
+/* sticky  sticky m top bottom left kuch kaam nahi karta h */
+/* fixed viewport ko dekh k position badalta h */
+/* sticky sirf pahle continer m move hua dusre m nahi hua  */
+/* sticky m top mention karna jaruri h  q ki agar top nahi hoga tho sticky kaam nahi karega or asa isliye h q ki agar top nahi hoga tho wo viewport ko dekh k position nahi badlega  */
+
+/* absolute apne parent position like relative fixed ko dekh k position change karta h varna viewport ko dekh k position change karta h  or ye apni position chor deta h koi bhi a sakta h */
+/* relative  original space ko nahi chorta h or apni original position m move karega */
+/* fixed original position ko chor deta h or viewport ko dekh k position change karta h */
+/* sticky viewport ko dekh k position change karta h or top mention karna jaruri h   or ye parent container m stick karega sirf uske bahar nahi*/
+/* static by deafault hota h  koi change nahi hota */

@@ -1,0 +1,68 @@
+/* select id ? */
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Arial';
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    background-color: #000;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:antiquewhite;
+    text-align: center;
+
+}
+/* select class ? */
+.first
+{
+    color: rosybrown;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    background-color: #000;
+}
+.third
+{
+    color: violet;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    background-color:aqua
+}
+.fourth
+{
+    color: seagreen;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    background-color:crimson;
+}
+.fifth
+{
+    color: salmon;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    background-color:chartreuse;
+}
+
+.sixth
+{
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    background-color:darkorange;
+}
+

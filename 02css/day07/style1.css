@@ -1,0 +1,42 @@
+/* Z-INDEX positon m apply hota h static ko chor k */
+/* in case of overlap of elements when he decide which element is on top of the other element we use z-index property */
+/* higher z-index value will be on top of the lower z-index value */
+
+.box1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    display:  inline-block;
+   
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    display:  inline-block;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: -1;
+}
+/* default z-index is auto */
+.box3{
+    height: 150px;;
+    width: 150px;
+    background-color: green;
+    display:  inline-block;
+    z-index: 2;
+}
+.box4{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display:  inline-block;
+    z-index: 3;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: aqua;
+}

@@ -1,0 +1,30 @@
+/* viewport */
+h1 {
+    color: blue;
+    font-size: 4vh;
+    font-style:inherit;
+   
+}
+/* percentage of viewport width */
+h2 {
+    color: red;
+    font-size: 8vh;
+    font-style:inherit;
+}
+/* fontweight */
+ul {
+    color: green;
+    font-size: 4vh;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: small-caps;
+}
+p {
+    color: purple;
+    line-height: 30px;
+    letter-spacing: 3px;
+    will-change: transform;
+    text-transform: lowercase;
+    font-stretch: ultra-expanded;
+   
+}

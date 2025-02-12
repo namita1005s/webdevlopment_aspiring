@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.circle{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    /* border radius gool bana diya */
+    background-color: #f00;
+    margin: auto;
+    margin-top: 20vh;
+    
+    /* auto hrigontally center m rakh deta h */
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>IIT JEE Registration form </h1>
+    <br>
+    <form >
+        <!-- form action is use to put place where all data will go-->
+        <fieldset>
+    <legend>IIT JEE Registration form </legend>
+    <label for="name">Full Name : </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br>
+    <br>
+    <label for="email">Email : </label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br>
+    <br>
+    <label for="contact">Phone: </label>
+    <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+    <br>
+    <br>
+    <label for="Password">Password : </label>
+    <input type="password" id="Password" name="Password" placeholder="Enter your password" required>
+    <br>
+    <br>
+    <label> Gender :</label>
+    <input type="radio" id="Male" name="gender" value="Male">
+    <label>Male</label>
+    <input type="radio" id="Female" name="gender" value="Female">
+    <label>Female</label>
+    <input type="radio" id="Other" name="gender" value="Other">
+    <label>Other</label>
+    <br>
+    <br>
+    <label for="dob">Date of Birth : </label>
+    <input type="date" id="dob" name="dob"  min="2002-01-01" max="2006-12-31" required>
+    <br>
+    <br>
+    <label for="Sname">School Name</label>
+    <input type="text" id="Sname" name="Sname" placeholder="Enter your school name" >
+    <br>
+    <br>
+    <label for="board">Board</label>
+    <select id="board" name="board">
+        <option value="" disabled selected>Select your board</option>
+        <option value="CBSE">CBSE</option>
+        <option value="ICSE">ICSE</option>
+        <option value="State Board">State Board</option>
+        <option value="Other">Other</option>
+    </select>
+    <br>
+    <br>
+    <label for="passing_Year"> Passing Year: </label>
+    <input type="number" id="passing_Year" name="passing_Year" min="2022" max="2025">
+    <br>
+    <br>
+    <label for="Center_name"> Exam Center :</label>
+    <select name="Center_Name" id="Center_name">
+    <option value="" disabled selected>Select Center</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Kolkata">Kolkata</option>
+    <option value="Chennai">Chennai</option>
+     </select>
+    <br>
+    <br>
+    <button>Register</button>
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>

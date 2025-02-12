@@ -1,0 +1,20 @@
+/* *{
+    margin: 0;  YA YE KARO YA TOP,RIGHT LEFT SABKO 0 PX KARO OR AB ISKO HATAOGE THO MERGINTOP BHI LIEKH SAKTE HO PADDING TOP KI JAGHA
+
+    
+} */
+header{
+    background-color: salmon;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+main{
+    /* why not mergin? */
+    /* margin border padding */
+    
+    /* margin-top: 100px; */
+    padding-top: 70px;
+}

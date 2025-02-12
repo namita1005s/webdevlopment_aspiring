@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    
+} 
+.first, .third{
+    height: 30vh;
+    width: 20vw;
+    background-color: darkblue;
+}
+.first, .third{
+    margin-left: 20vw;
+    background-color: darkblue;
+}
+.second{
+    display: block;
+    height: 40vh;
+    width: auto;
+    background-color: darkblue;
+}
+.second{
+    margin-top: auto;
+    background-color: darkblue;
+}
+ 

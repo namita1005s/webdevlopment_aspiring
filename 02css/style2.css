@@ -1,0 +1,37 @@
+/* *{
+    background-color: aqua;
+    color: black;
+} */
+/* universal selector *   */
+
+/* h1{
+    background-color:  blue;
+}
+h3{
+    background-color:  green;
+}
+p{
+    background-color:  salmon;
+} */
+/* u can use class method also *   */
+/* grouping selector */
+/* h1, h2, p, #third {
+    color: white;
+} */
+/* #fifth{
+    color: red;
+    background-color: violet;
+} */
+h2[draggable="true"]
+{
+    background-color: blueviolet;
+}
+/* select by attribute h upper vala */
+section p{
+    background-color: yellow;
+}
+/* select by descendent */
+/* select by child */
+section > p{
+    background-color: green;
+}

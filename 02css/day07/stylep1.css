@@ -1,0 +1,26 @@
+.one{
+     height: 200px;
+     width: auto;
+     background-color: seagreen;
+     overflow: auto;
+     /* jo content overflow hoga vo hide ho jayega */
+     /* visible(default) | hidden | scroll | auto | inherit */
+     margin: auto;
+     padding: 20px;
+     border: 2px solid black;
+     box-sizing: border-box;  
+
+}
+.image{
+    height: 400px;
+    width: auto;
+    margin: 10px;
+    float: left;
+}
+
+.image2{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    float: right;
+}

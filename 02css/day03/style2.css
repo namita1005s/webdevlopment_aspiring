@@ -1,0 +1,30 @@
+h2{
+    background-color: burlywood;
+
+}
+.first_id{
+    background-color: lightblue;
+}
+#first_class{
+    background-color: lightcoral;
+}
+/* order
+last color in element */
+
+/* specificity
+id>class>element */
+
+/* type
+inline>internal>external */
+/* (but in internal external order is important beacuse last one is important)  */
+
+/* important */
+/* !important is a keyword that can be added to any CSS declaration. It makes that declaration override any other declarations that might apply to the element */
+h1{
+    color: red !important;
+}
+/* !important is a last option */
+
+/* inheritance */
+/* maan lo body me color red hai to uske child me bhi red hoga  */
+/* font google s le bhi use kar sakte h link copy kar k */

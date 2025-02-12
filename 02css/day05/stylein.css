@@ -1,0 +1,28 @@
+.first{
+    display: inline;
+    /* display inline lagane s block element inline ban jata h */
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.second{
+    display: block;
+    /* display inline-block lagane s block element inline ban jata h per height width laga sakte h */
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+
+}
+span{
+    display:inline-block;
+    /* display block lagane s inline block element ban jata h */
+    background-color: green;
+    height: 100px;
+    /* height weight kaam nahi karta h inline element me */
+    width: 100px;
+    margin: 20px;
+    /* mergin sirf horighontal me kaam karta h */
+    /* vertical milta h per visible nahi hota */
+}

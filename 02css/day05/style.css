@@ -1,0 +1,27 @@
+.first{
+    background-color: orange;
+    height: 200px ;
+    width: 250px;
+    margin: 40px;
+}
+.second{
+    background-color: yellow;
+    height: 200px ;
+    width: 250px;
+    margin: 40px;
+}
+span{
+    display: inline-block;
+    /* display: block; */
+    /* display block liekhne s block element ban jata hai */
+    background-color: green;
+    height: 100px ; 
+    /* kuch nahi hoga  */
+    margin: 10px;
+    width: 100px;
+
+
+}
+/* block element - height, width, margin  */
+/* Inline element - height, width nahi hota, margin hota hai */
+/* inline-block - height, width, margin hota hai (behave inline ka ha par hum add sab kuch kar sakte hai) */
