@@ -1,0 +1,38 @@
+/* overflow - hidden, scroll, auto, visible, inherit
+overflow ka use tab karte h jab koi element apne parent se bahar nikal jata h to usko hide karne k liye */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 400px;
+    width: 550px;
+    background-color: lightblue;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+h2{
+   
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+p{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: justify;
+}
+/* overflow visible(default) */
+/* overflow hidden - hide the content which is outside the parent */
+/* overflow scroll - scroll bar show karta h */
+/* overflow auto - scroll bar show karta h jab content bahar nikal jata h */

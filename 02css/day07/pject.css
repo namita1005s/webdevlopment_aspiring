@@ -1,0 +1,34 @@
+.img1{
+    height: 300px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+
+}
+.img2{
+    height: 300px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+}
+h1,h2{
+    color: #ff0000;
+}
+/* float - left, right, none  (default left)
+it is used to set the position of the element. but it is rarely used nowadays. */
+.img3{
+    float: right;
+    height: 300px;
+    width: auto;
+    margin-left: 20px;
+    clear: right;
+}
+.img4{
+    float: right;
+    height: 300px;
+    width: 370px;
+    margin-left: 20px;
+    clear: right;
+}
+/* clear - left, right, both, none (default none)
+it is used to clear the float property.  float hua to next line m le jayge*/
