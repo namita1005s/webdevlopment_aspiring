@@ -1,0 +1,66 @@
+.container{
+    background-color: aqua;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center;
+    align-items: end;
+    align-items: stretch; */
+    /* align-items: baseline;  */
+
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-content: center; 
+    jab flex wrap on  ho or next line m aye tho space s khelna  ho or upper neeche karna tho use karna */
+
+
+
+
+
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}
+/* in display flex property, the main axis is horizontal and the cross axis is vertical. acoording to parent container, the main axis is horizontal and the cross axis is vertical. */
+/* row horizonatl is main axis and vertical is cross axis. */ 
+/* column vertical is main axis and horizontal is cross axis.  */
+/* justify-content: works on main axis. */
+/* align-items: works on cross axis. */
+
+/* basline s sab ekline m a jayge */
+
+/* .first{
+    font-size: 50px;
+}
+.second{
+    font-size: 25px;
+} */
+.box{
+    height: 150px;
+    /* height: 150px; for align-items: strech; */
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: yellow;
+}

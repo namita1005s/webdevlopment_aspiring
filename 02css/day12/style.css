@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  background-color: aqua;
+  flex-direction: row;
+  justify-content: center;
+    align-items: center;
+    height: 800px;
+
+}
+/* flex item  */
+/* order it defines the order of element  */
+/* deafault order is 0 */
+
+/* flex grow */
+/* by default it is 0 */
+/* it defines the ability of the flex item to grow if necessary . incerease the size of the flex item to fill the container */
+/* it fills the container extra space */
+/* at main axis it grows like in height and width */
+
+/* flex shrink */
+/* by default it is 1 */
+/* it defines the ability of the flex item to shrink if necessary */
+/* it shrinks the container extra space  , increase value increase speed shrinking*/
+
+/* flex basis */
+/* by default it is auto */
+/* it sets initial size of the flex item before remaining space is distributed  or the item is allowed to shrink or grow  */
+/* it is like width and height  overcoming axis */
+
+/* align-self */
+/* it allows the default alignment to be overridden for individual flex items */
+/* it is like align-items but it is for individual item */
+/* it is used to align the item in cross axis */
+
+/* short hand notation */
+/* syntax- flex: flex-grow flex-shrink flex-basis; */
+
+/* media query */
+/* it is used to apply different css for different screen size */
+/* RWD - Responsive Web Design */
+
+
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.box1{
+    background-color: red;
+    /* order: 10; */
+
+    
+}
+.box2{
+    background-color: blue;
+    /* flex-grow: ; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+}
+.box3{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 1; */
+    /* align-self: flex-start; */
+    /* flex: 2 2 200px; */
+    
+}
+.box4{
+    background-color: yellow;
+    /* order: 1; */
+}

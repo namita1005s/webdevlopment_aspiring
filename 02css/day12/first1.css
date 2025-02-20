@@ -1,0 +1,12 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+@media (min-width: 400px){
+    .container{
+        background-color: red;
+    }
+    
+}

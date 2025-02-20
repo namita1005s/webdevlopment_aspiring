@@ -5,6 +5,68 @@ body{
     
     background-color: #f4f4f4;
 }
+.head{
+    background-color: white;
+}
+.first {
+    margin-left: 200px;
+ 
+}
+.second{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.diningimage, .delivaryimage, .nightlifeimage{
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+}
+.dining{
+    margin-left: 200px;
+}
+.dine, .delivaryarr, .night{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: rgb(133, 126, 126);
+}
+
+.third{
+    height: 500px;
+    background-color: grey;
+
+}
+
+.brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.searching{
+    width: 300px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 15px;
+    height: 30px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    border: none;
+    color: rgb(134, 125, 125);
+    bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+    margin-right: 50px;
+    background-color: white;
+}
+
 .card:hover{
     background-color: white;
     border-color:  white;
