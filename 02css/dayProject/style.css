@@ -1,1 +1,64 @@
 
+.container{
+    background-color: blue;
+    /* width: 400px;
+    height: 500px; */
+    display: flex;
+}
+
+/* general css for desktop */
+
+.box{
+    background-color: yellow;
+    color: red;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+/* MOBILE PHONE */
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+}
+/* TABLET */
+/* max width 900px, 601px min Tablet */
+@media (min-width: 601px) and (max-width: 900px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+/* aspect-ratio - the ratio of the width to the height of an viewport */
+/* exmple- */
+@media (aspect-ratio: 16/9){
+    .container{
+        background-color: green;
+        flex: row;
+        width: 300px;
+        height: 400px;
+
+    } 
+}
+
+/* orientation- portrait or landscape */
+@media (orientation: portrait){
+    .container{
+        background-color: palevioletred;
+        flex: row;
+        width: 300px;
+        height: 400px;
+
+    } 
+}
+
+
+/* @media (max-width: 600px){
+    .container{
+        background-color: red;
+        width: 300px;
+        height: 400px;
+
+    } */
+    
