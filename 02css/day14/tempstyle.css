@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 1rem;
+    
+}
+
+.Box{
+    font-size: 2rem;
+    border: 0.5rem solid black;
+    background-color:coral;
+
+   
+}
+/* inspect element kar k grid column start and end dekho */
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.box3{
+    grid-column: 2/4;
+    /* short hand property */
+}

@@ -1,0 +1,99 @@
+/* h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.one  {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    background-color: yellow;
+}
+
+/* Text Alignment */
+/* .a {
+    text-align: center;
+    background-color: blueviolet;
+}
+.a > p{
+    color: red;
+    background-color: cadetblue;
+}
+
+.b {
+    text-align: left;
+}
+
+.c {
+    text-align: right;
+}
+
+.d {
+    text-align: justify;
+} */ 
+
+/* p {
+    color: green;
+    font-size: 20px;
+    background-color:orangered;
+    text-align-last: left;
+    /* text-align-last: center;
+    text-align-last: right;
+    text-align-last: justify;
+    text-align-last: start;
+    text-align-last: auto;
+    text-align-last: none;   */
+
+/* } */
+
+      /* h1{
+        direction: ltr;
+        direction: rtl;
+        unicode-bidi: bidi-override; 
+    } */
+        
+    
+/* direction read karta hai ki text kis direction me jayega or read kiya jayega
+ltr = left to right
+rtl = right to left */
+
+/* unicode-bidi: bidi-override = agar text me koi bhi direction change karna ho to ye property use karte hai */
+/* ye sabkuch ulta kar dega */
+
+/* vertical-align */
+    /* span{
+        vertical-align: super;
+        /* vertical-align: sub; */
+    /* } */
+
+    /* text-decoration */
+    /* h2{
+        text-decoration: overline;
+        /* text-decoration: overline; */
+        /* text-decoration: line-through; */
+        /* text-decoration: none; */
+        /* text-decoration: underline; */
+        /* text-decoration-color: chartreuse;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 5px; */
+        /* text-transform: lowercase;
+        text-transform: uppercase; */
+        /* text-transform: capitalize;
+
+    } */
+    
+    /* p{
+        text-indent: 50px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        line-height: 50px;
+        word-spacing: 10px;
+        white-space: nowrap;
+    } */
+
+    p{
+        text-shadow: 5px 5px 5px red;
+    }
+

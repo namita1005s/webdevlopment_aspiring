@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px ; */
+    /* 3 row 2 column banega */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* fraction ki tarah divide karega */
+    gap: 1rem;
+    /* row-gap: 2rem; */
+    /* column-gap: 2rem; */
+    /* gap a gaya easily */
+}
+
+.Box{
+    font-size: 2rem;
+    border: 0.5rem solid black;
+    background-color:coral;
+
+   
+}
+/* grid parent conatiner m lagega */

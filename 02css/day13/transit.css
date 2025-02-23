@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: chartreuse;
+    transition-property: background-color;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+
+
+   
+}
+
+.box:hover{
+    background-color: orange;
+    width: 500px;
+    border-radius: 50%;
+}
+
+/* timing-function: A function that describes how the transition progresses over its duration. Common values include: 
+• linear: The transition has a constant speed. 
+• ease: The transition starts slow, speeds up, and then slows down. 
+• ease-in: The transition starts slow and then speeds up. 
+• ease-out: The transition starts fast and then slows down. 
+• ease-in-out: The transition starts slow, speeds up, and then slows down again. 
+delay: The time to wait before starting the transition (e.g., 1s). */
+
+/* shorthand notation: transition: property duration timing-function delay; */
+/* example- transition: background-color 3s linear 1s; */
