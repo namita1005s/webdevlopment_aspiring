@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 4rem;
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-columns: minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px); */
+    /* grid-template-columns: repeat(auto-fill,minmax(100px, 200px)); */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center end;
+    /* align items justify content */
+    
+
+
+}
+.box{
+
+    background-color: orchid; 
+}
+.box1, .box3, .box5, .box7{
+    background-color: lightcoral;
+}
+
+/* auto-fill: The auto-fill keyword attempts to create as many tracks of the specified size as will fit into the grid container. The tracks are then filled with as many grid items as possible, according to the placement of those items in the source order.
+auto-fit: The auto-fit keyword attempts to create as many tracks of the specified size as will fit into the grid container. The tracks are then filled with as many grid items as possible, according to the placement of those items in the source order. The difference is that when the number of tracks is not enough to fill the container, auto-fill creates empty tracks, while auto-fit collapses those empty tracks and stretches the tracks to fill the container. */
+.box1{
+    justify-self: start;
+    align-self: flex-start;
+}
+
+/* justify content - horizontal m shift karata h
+justify items - vertical m shift karata h
+justify self - horizontal m shift karata h individual element pe
+
+align self - vertical m shift karata h individual element pe
+align content - vertical m shift karata h
+align items - horizontal m shift karata h */

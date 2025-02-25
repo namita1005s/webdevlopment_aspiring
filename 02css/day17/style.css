@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/* 
+Animation
+1. animation-name: name of the animation
+2. animation-duration: time taken by the animation to complete
+3. animation-timing-function: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier()
+4. animation-delay: time taken by the animation to start
+5. animation-iteration-count: number of times the animation should run
+6. animation-direction: normal, reverse, alternate, alternate-reverse
+7. animation-fill-mode: forwards, backwards, both, none
+8. animation-play-state: running, paused */
+
+.container{
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: olive;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    border-radius: 50%;
+    /* position: relative; */
+}
+
+
+@keyframes moveme{
+    /* initial position */
+    from{
+        /* top: 0px;
+        left: 0px; */
+        /* transform: translate(0px); */
+        /* transform: translate(0vw); */
+        /* transform: translate(0vw,0vh); */
+        transform: translateY(0vh);
+    }
+    to{
+        /* top: 0px;
+        left: 1000px; */
+        /* transform: translate(1000px); */
+        /* transform: translate(1000vw); */
+        /* transform: translate(80vw,50vh); */
+        transform: translateY(50vh);
+    }
+}
+/* learn about animation fil mode */
+
+@keyframes movement {
+
+    0%{
+       transform: translate(0vw,0vh);
+    }
+    25%{
+        transform: translate(30vw,-30vh);
+    }
+    50%{
+        transform: translate(60vw,0vh);
+    }
+    75%{
+        transform: translate(30vw,30vh);
+    }
+    100%{
+        transform: translate(0vw,0vh);
+    }
+
+}
+/* 
+animation short hand property
+animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+example-
+animation: movement 3s linear 2s infinite alternate forwards running; */
+

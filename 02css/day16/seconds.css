@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 10rem;
+}
+
+/* 3D Transformations
+    1. rotateX()
+    2. rotateY()
+    3. rotateZ()
+    4. translateX()
+    5. translateY()
+    6. translateZ()
+    7. perspective()
+    8. scaleX()
+    9. scaleY()
+    10. scaleZ()
+
+*/
+
+.container{
+    display: grid;
+    
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    background-color: bisque;
+    
+
+    
+}
+.Box{
+    height: 200px;
+    width: 200px;
+    background-color: mediumvioletred;
+    font-size: 2rem;
+    border: 5px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+
+}
+    
+.Box1:hover{
+    transform: rotateX(90deg);
+}
+/* X-axis rotation  on positive degree*/
+/* on reverse rotation on negative degree in X-axis */
+.Box2:hover{
+    transform: rotateY(90deg);
+}
+/* Y-axis rotation  on positive degree*/
+/* on reverse rotation on negative degree in Y-axis */
+.Box3:hover{
+    transform: rotateZ(90deg);
+}
+/* Z-axis rotation  on positive degree*/
+/* on reverse rotation on negative degree in Z-axis */
+
+.Box4:hover{
+    transform: translatex(200px);
+}
+/* at X direction on positive value :right side
+at X direction on negative value :left side */
+.Box5:hover{
+    transform: translatey(200px);
+}
+/* at Y direction on positive value :down side
+at Y direction on negative value :up side */
+.Box6:hover{
+    transform: translatez(200px);
+}
+/* at Z direction on positive value :front side
+at Z direction on negative value :back side */
+.Box6:hover{
+    transform: perspective(300px) translatez(200px);
+}
+/* perspective value is used to set the distance between the z=0 plane and the viewer. */
+/* translate value is used to move the element from its current position */
+.Box7:hover{
+    transform: scaleX(2);
+}
+/* X-axis scaling  on positive value :increase the size
+on negative value :decrease the size  or use decimal value*/
+.Box8:hover{
+    transform: scaleY(2);
+}
+/* Y-axis scaling  on positive value :increase the size
+on negative value :decrease the size or use decimal value  */
+.Box9:hover{
+    transform: scaleZ(2);
+}
+/* Z-axis scaling  on positive value :increase the size of thickne
+on negative value :decrease the size thickness */
+.Box9:hover{
+    transform: perspective(300px) scaleZ(2) rotateY(45deg);
+}

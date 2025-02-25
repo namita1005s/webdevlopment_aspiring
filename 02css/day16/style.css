@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* 2D transformation:
+    1. translate
+    2. scale
+    3. rotate
+    4. skew
+    5. transform-origin */
+
+.container{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.Box1, .Box2{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    font-size: 4rem;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+
+/* .Box:hover{
+    transform: translate(200px , 200px);
+   
+} */
+ /* if negative -200px it will go opposite side */
+    /* -200px on right side helps in moving upword */
+
+/* single translate: X axis */
+/* double value in translate : X axis and Y axis */
+/* X-axis: positive: right, else left */
+/* Y-axis : positive: down, else top  */
+
+/* .Box:hover{
+    transform: scale(2 , 3);
+} */
+/* single scale : 2 increase x-axis
+double scale : 2 increase x-axis and 3 increase y-axis */
+
+/* .Box:hover{
+    transform: rotate(180deg);
+} */
+/* rotate : 180deg rotate in clockwise direction else negative moves anticlockwise */
+
+
+/* .Box:hover{
+    transform: skew(-30deg );
+} */
+/* skew : psitive value tilt left side and negative value tilt left side */
+
+/* .Box1:hover{
+    transform: translate(200px, 300px) scale(2) rotate(50deg) skew(50deg);
+} */
+
+.Box1:hover{
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+}
+.Box2:hover{
+    
+    transform: rotate(45deg);
+}
