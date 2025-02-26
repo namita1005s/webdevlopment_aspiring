@@ -1,12 +1,17 @@
 console.log('Hello, JavaScript!'); // Hello, JavaScript!
 // ctrl + ` // for terminal
+// cd 03javascript/day01js // to go to the directory
+// node first.js // to run the file
+
 let num =10;
 console.log(num); // 10
 
-let names = 'John';
-names = 'Doe';
+// let const var
+
+let names = "John";
+names = "Doe";
 console.log(names); // Doe
-ids
+
 
 const ids = [1, 2, 3, 4, 5];
 console.log(ids); // [1, 2, 3, 4, 5]
@@ -20,9 +25,10 @@ console.log(age); // 30
 // declare the variable 
 let nums = 10;
 console.log(nums); // 10
- 
+
+
 // primitive data types
-//  string, number, boolean, null, undefined, symbol, bigint
+//  string, number, boolean, null, undefined, bigint
 
 let account_balance = 1000;
 console.log( typeof account_balance); // 1000
@@ -44,6 +50,7 @@ console.log(namass); // undefined
 // null
 let user = null; // jaanbujh ke null rakha hai
 console.log(user); // null
+console.log(typeof user); // object
 // ye khud ko object bata raha hai
 // iska matlab ye hai ki null is a object datatype
 
