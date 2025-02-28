@@ -24,7 +24,7 @@ console.log(obj); // { name: 'John', age: 30, isMarried: false, address: { city:
 console.log(typeof obj); // object
 
 // Function
-let fun = function() {
+let fun = function() {   // variable k andar function ko store kar sakte hain
     console.log('Hello World');
 }
 fun(); // Hello World
@@ -34,6 +34,7 @@ console.log(typeof fun); // function
 
 // type conversion
 
+
 let account_balance = "1000";
 let num = Number(account_balance);
 console.log(typeof account_balance); // string
@@ -42,6 +43,7 @@ console.log(typeof num); // number
 
 //boolean convert to number
 let isMarried = true;
+console.log(typeof isMarried); // boolean
 console.log(Number(isMarried)); // 1
 
 let account = "100xs";
@@ -49,14 +51,17 @@ console.log(Number(account)); // NaN (Not a Number)
 
 // null                      remind
 let n = null;
+console.log(typeof n); // object
 console.log(Number(n)); // 0
 
 // undefined                  remind
 let x2;
+console.log(typeof x2); // undefined
 console.log(Number(x2)); // NaN
 
 // string k andar covert
 let str = "123";
+console.log(typeof str); // string
 console.log(String(str));// "123" 
 console.log(typeof str); // string
 
@@ -70,6 +75,7 @@ console.log(Boolean(b)); // true
 
 let c = "    ";
 console.log(Boolean(c)); // true
+// kuch bhi rakha h tho true dega
 
 let d;
 console.log(Boolean(d)); // false
@@ -96,6 +102,8 @@ console.log(10/2); // 5
 console.log(10*2); // 20
 console.log(10+2); // 12
 console.log(10-2); // 8
+
+console.log((((6*(3+18))/6)-9)); // 18
 
 // ++ -- (postincrement post decrement) operators sum++ sum--
 let sum = 20;
@@ -136,4 +144,7 @@ a2 %= 3;
 console.log(a2); // 1
 a2 **= 2;
 console.log(a2); // 1
+
+// double multiply (**) 2 ki power me multiply
+
 

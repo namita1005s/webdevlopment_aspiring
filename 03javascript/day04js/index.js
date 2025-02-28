@@ -6,6 +6,7 @@ let a1 = 10;
 let a2 = 10;
 console.log(a1 == a2); // true
 console.log(a1 === a2); // true
+// === is use to check type and value both
 
 let a3 = 10;
 let a4 = 20;
@@ -25,7 +26,7 @@ console.log(num == str); // true
 // true because of type conversion is allowed
 
 let num1 = 10;
-let str1 = "10";
+let str1 = "20";
 console.log(num1 === str1); // false
 // false because of type conversion is not allowed
 // === is strict comparison operator which does not allow type conversion. afetr check it compare
@@ -128,8 +129,16 @@ console.log(5 & 1); // 1
 // in &  5 will be converted into binary 101 and 1 will be converted into binary 001
 // 101 & 001 = 001 = 1
 
+console.log(6&3); // 2
+// 6 = 110 and 3 = 011
+// 110 & 011 = 010 = 2
+
 console.log(5 | 1); // 5
 // 101 | 001 = 101 = 5
+
+console.log(10 | 10); // 10
+// 10 = 1010 and 10 = 1010
+// 1010 | 1010 = 1010 = 10
 
 console.log(5 ^ 1); // 4
 // 101 ^ 001 = 100 = 4
@@ -145,6 +154,14 @@ console.log(5 << 3); // 40
 // 5 multiplied by 2^3 = 5*8 = 40
 // 5 = 101.0000 = 101000.0 = 40 (left shift by 3)
 // 101.0000 = 101000.0 = 40
+
+console.log(10 >> 2); // 2
+// 10 divided by 2^2 = 10/4 = 2
+// 10 = 1010.00 = 10.10 = 2 (right shift by 2)  
+
+console.log(10 << 2); // 40
+// 10 multiplied by 2^2 = 10*4 = 40
+// 10 = 1010.00 = 101000.0 = 40 (left shift by 2)
 
 console.log(20 >> 2); // 5
 // 20 divided by 2^2 = 20/4 = 5
