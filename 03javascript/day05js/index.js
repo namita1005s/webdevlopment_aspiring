@@ -26,4 +26,9 @@ console.log(obj1); // { id: 30, naming: 'John' }
 // Thus we can see that the object is mutable and the value of obj1 is changed when we change the value of obj2 and mutable
 // and in first example the value of a is not changed when we change the value of b because a is primitive data type amd immutable
 
-// 
+// Our memory is divided into two parts 1)stack 2)heap
+// Stack: Stack memory is used to store primitive data types and it is immutable
+// Heap: Heap memory is used to store non-primitive data types and it is mutable
+//  BUT WHY?
+// Because in stack memory the data is stored in a fixed memory location and it is immutable
+// and in heap memory the data is stored in a dynamic memory location and it is mutable
