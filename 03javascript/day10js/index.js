@@ -39,7 +39,7 @@ console.log(obj["account balance"]); //2000
 //console.log(obj.account balance); //SyntaxError: Unexpected identifier
 console.log(obj[0]); //zero
 console.log(obj[1]); //one
-console.log(obj);
+console.log(obj); 
 // {
 //     '0': 'zero',
 //     '1': 'one',
@@ -47,8 +47,8 @@ console.log(obj);
 //     account_balance: 1000,
 //     gender: 'Female',
 //     age: 30,
-//     'account balance': 2000
-//   }
+//   'account balance': 2000
+// }
 
 
 //  Key rules 
@@ -81,20 +81,57 @@ console.log(person); // { name: 'Namita Kumari', gender: 'Female' }
 
 // 3. class Syntax to make object creation more structured
 class Person {
-    constructor( name, age, gender){
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+    constructor( name, age, gender){ // constructor( na, ag, gen)  
+        this.name = name; // this name = na
+        this.age = age;    // this age = ag
+        this.gender = gender;  //this gender = gen
 
     }
 }
 // this is a keyword which refers to the current object
 let per1 = new Person("Shivam", 30, "Male");
-// console.log(per1);  //Person { name: 'Shivam', age: 30, gender: 'Male' }
+console.log(per1);  //Person { name: 'Shivam', age: 30, gender: 'Male' }
 // constructor  ka matlab create karna or memory allocate karna
 // advantage of constructor ki hum ek hi baar constructor ko call karke multiple object create kar sakte hain
 let per2 = new Person("Namita", 30, "Female");
 console.log(per1 , per2); 
 //Person { name: 'Shivam', age: 30, gender: 'Male' } Person { name: 'Namita', age: 30, gender: 'Female' }
+// it makes easy to create multiple objects
+
 
 // common methods for objects
+let obj1 = {
+    name: "Namita",
+    age: 30,
+    account_balance: 1000,
+    gender: "female"
+};
+const keyArr = Object.keys(obj1);
+console.log(keyArr); // [ 'name', 'age', 'account_balance', 'gender' ]
+
+const valueArr = Object.values(obj1);
+console.log(valueArr); // [ 'Namita', 30, 1000, 'female' ]
+
+// for key value pair
+const entryArr = Object.entries(obj1);
+// console.log(entryArr); 
+// [
+//     [ 'name', 'Namita' ],
+//     [ 'age', 30 ],
+//     [ 'account_balance', 1000 ],
+//     [ 'gender', 'female' ]
+//   ]
+
+//assign use case
+const obj4 = {a:1, b:2};
+const obj5 = {c:3, d:4};
+const obj6 = Object.assign({}, obj4, obj5);
+console.log(obj6); // { a: 1, b: 2, c: 3, d: 4 }
+// empty object is used to avoid mutation of original object so it is necessary to use 
+// {} it is a target object so changes will be made in this object
+// obj4, obj5 are source object
+
+// spread operator
+const obj7 = {...obj4, ...obj5};
+console.log(obj7); // { a: 1, b: 2, c: 3, d: 4 }
+// spread operator is used to copy the properties of one object to another object
