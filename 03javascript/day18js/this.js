@@ -17,8 +17,7 @@
 // console.log(this.c);
 // function name(){
 //          console.log("Hello");
-// }  global object me store hote hai
-
+// }   global object me store hote hai
 console.log(this); //{} it points to empty object
 
 
