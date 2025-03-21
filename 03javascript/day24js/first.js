@@ -1,8 +1,8 @@
 // const form = document.querySelector('form');
 // form.addEventListener('click', (event)=>{
-//     console.log(event.target.value);   //value print hoga
-//     console.log(event.target.id);     //id print hoga
-//     console.log(event.target); //poora element print hoga
+//     console.log(event.target.value);   // Prints the value of the clicked element
+//     console.log(event.target.id);     // Prints the id of the clicked element
+//     console.log(event.target);   // Prints the entire element
 // })
 // const form2 = document.querySelector('form');
 // form.addEventListener('change', (event)=>{ 
@@ -32,38 +32,43 @@
 //     // console.log(event.target.value);
 //     console.log("form Reset");
 // })
-const form = document.querySelector('form');
-form.addEventListener('submit',(event)=>{
 
-    event.preventDefault();
-   
-    const first = document.getElementById("first");
-    console.log(first.value);
-
-    const second = document.getElementById("second");
-    console.log(second.value);
-
-    const third = document.getElementById("third");
-    console.log(third.value);
-
-    const result = document.getElementById("result");
-    result.innerText = `${first.value} ${second.value} is a good Boy`;
-    document.body.append(result);
-
-})
-//or 
 // const form = document.querySelector('form');
+// // document.querySelector('form') → Selects the first <form> element in the document.
+// form.addEventListener('submit',(event)=>{
 
-// form.addEventListener('submit', (event) => {
-//     event.preventDefault(); // Prevents form from refreshing the page
+//     event.preventDefault(); // Prevents page reload
+   
+//     const first = document.getElementById("first");
+//     console.log(first.value);
 
-//     const data = new FormData(form);
+//     const second = document.getElementById("second");
+//     console.log(second.value);
+
+//     const third = document.getElementById("third");
+//     console.log(third.value);
+
+//     const result = document.getElementById("result");
+//     result.innerText = `${first.value} ${second.value} is a good Boy`;
+//     // result.innerText → Updates the text inside the result element.
+//     document.body.append(result);
+
+// })
+
+//or 
+const form = document.querySelector('form');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault(); // Prevents form from refreshing the page
+
+    const data = new FormData(form);
     
-//     for (let [key, value] of data.entries()) {
-//         console.log(key, value);
-//     }
+    for (let [key, value] of data.entries()) {
+        console.log(key, value);
+    }
+    // .entries() returns an iterator for all key-value pairs in the form.
 
-//     console.log("Keys:", Array.from(data.keys()));
-//     console.log("Values:", Array.from(data.values()));
-// });
-// 49:14
+    console.log("Keys:", Array.from(data.keys()));
+    console.log("Values:", Array.from(data.values()));
+});
+ 
