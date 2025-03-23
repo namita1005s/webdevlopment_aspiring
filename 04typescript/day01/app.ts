@@ -16,7 +16,10 @@ let c:string = "hello";
 let isExist:boolean = true;
 isExist = false; 
 //bigInt
-// let big:bigint = 104653454878937493874839430n; error
+let big:bigint = 104653454878937493874839430n; 
+//tsc --target ES2020 yourFile.ts
+
+
 //null
 let abc:null = null;
 let bcd:undefined = undefined;
