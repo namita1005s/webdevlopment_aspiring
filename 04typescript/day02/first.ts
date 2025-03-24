@@ -125,5 +125,7 @@ interface Person {
 // but in type we can not merge it will give error
 
 //extend with interface
+// function
+//class
 
 
