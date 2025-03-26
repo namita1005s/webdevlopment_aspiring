@@ -43,8 +43,8 @@ logMessage(100); // ✅ Works
 logMessage(true); // ✅ Works
 var dataa = "namita";
 console.log(dataa.toUpperCase()); // ✅ Works: "HELLO"
-dataa = 100;
-console.log(dataa.toUpperCase());
+// dataa = 100;
+// console.log(dataa.toUpperCase()); // ❌ Error: Property 'toUpperCase' does not exist on type 'number'
 //unknown type
 //the any and unknown type in typescript are both used to represent values of any type. 
 //the unknown type is a type-safe counterpart of any. because you cannot perform any operations on values of type unknown, without first narrowing its type through checks.
@@ -98,14 +98,59 @@ var c1 = {
     age: 25,
     isStudent: true
 }; // Explicitly defining the object structure
-var p1 = {
+var arr1 = [1, 2, 3, 4, 5];
+var add1 = function (x, y) { return x + y; };
+console.log(add(5, 10)); // 15
+var per1 = {
     name: "John",
     age: 25,
     isStudent: true,
     id: 1
 }; // Explicitly defining the object structure
-// interface is better then type because it can merge multiple interface
-// but in type we can not merge it will give error
-//extend with interface
-// function
-//class
+var user1 = {
+    name: "Alice",
+    age: 25
+};
+var user2 = {
+    name: "Bob",
+    age: 30
+};
+var emplo = {
+    name: "Charlie",
+    age: 30,
+    isStudent: false,
+    jobTitle: "Developer",
+    id: 101
+};
+console.log(emplo);
+var emp2 = {
+    name: "David",
+    jobTitle: "Designer",
+};
+console.log(emp2);
+var add5 = function (x, y) { return x + y; };
+console.log(add(3, 5)); // ✅ Output: 8
+var add6 = function (x, y) { return x + y; };
+console.log(add(4, 6)); // ✅ Output: 10
+var Studentssss = /** @class */ (function () {
+    function Studentssss(name, age, isStudent, id) {
+        this.name = name;
+        this.age = age;
+        this.isStudent = isStudent;
+        this.id = id;
+    }
+    Studentssss.prototype.greet = function () {
+        return "Hello, my name is ".concat(this.name);
+    };
+    return Studentssss;
+}());
+var student1 = new Studentssss("Emma", 22, true, 101);
+console.log(student1.greet()); // ✅ Output: Hello, my name is Emma
+//type cannot be used with implements in a class.
+// 🚀 When to Use What?
+// ✔ Use interface when:
+// ✅ Defining object shapes or class structures.
+// ✅ You need to extend properties using extends.
+// ✔ Use type when:
+// ✅ Working with primitive types, unions, and intersections.
+// ✅ Defining function types or tuples

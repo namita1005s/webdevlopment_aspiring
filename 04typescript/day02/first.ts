@@ -149,16 +149,16 @@ console.log(add(5, 10)); // 15
 
 
 //interface
-interface Person {
+interface Personss {
     name: string,
     age: number,
     isStudent: boolean
   }
-  interface Person{
+  interface Personss{
     id: number
 }
   
-  let p1: Person = {
+  let per1: Personss = {
     name: "John",
     age: 25,
     isStudent: true,
@@ -197,18 +197,18 @@ const user2: User = {
 // Both work the same way for objects.
 //Example 2: Extending vs Combining
 //Extending interface
-interface Person {
+interface Persons {
   name: string;
   age: number;
   isStudent: boolean;
 }
 
-interface Employee extends Person {
+interface Employees extends Persons {
   jobTitle: string;
   id: number;
 }
 
-const emp: Employee = {
+const emplo: Employees = {
   name: "Charlie",
   age: 30,
   isStudent: false,
@@ -216,7 +216,7 @@ const emp: Employee = {
   id: 101
 };
 
-console.log(emp);
+console.log(emplo);
 
 //Combining type using &
 type Person2 = {
