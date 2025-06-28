@@ -25,10 +25,10 @@ button.addEventListener('click', ()=>{
 
     // Read the data
     const input1 = document.getElementById('first');
-    const number1 = Number(input1.value);
+    const number1 = Number(input1.value); // value is a string, so we convert it to a number
 
     const input2 = document.getElementById('second');
-    const number2 = Number(input2.value);
+    const number2 = Number(input2.value); //Number function converts the string to a number
 
     if(isNaN(number1)||isNaN(number2)) // isNaN() is a function it checks value is number or not
         return;

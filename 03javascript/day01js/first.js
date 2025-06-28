@@ -7,13 +7,13 @@ let num =10;
 console.log(num); // 10
 
 // let const var
-
-let names = "John";
-names = "Doe";
+// let: Block-scoped, can be reassigned
+let names = "John"; 
+names = "Doe"; 
 console.log(names); // Doe
 
-
-const ids = [1, 2, 3, 4, 5];
+// const: Block-scoped, cannot be reassigned (but object/array contents can be modified)
+const ids = [1, 2, 3, 4, 5]; 
 console.log(ids); // [1, 2, 3, 4, 5]
 // ids = [10, 20, 30, 40, 50]; // TypeError: Assignment to constant variable.
 // values cannot be changed in const

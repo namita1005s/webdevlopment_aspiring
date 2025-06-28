@@ -5,12 +5,14 @@
 let a1 = 10;
 let a2 = 10;
 console.log(a1 == a2); // true
+// == is use to check value only 
 console.log(a1 === a2); // true
 // === is use to check type and value both
 
 let a3 = 10;
 let a4 = 20;
 console.log(a3 == a4); // false
+
 console.log(a3 === a4); // false
 
 let a5 = 10;

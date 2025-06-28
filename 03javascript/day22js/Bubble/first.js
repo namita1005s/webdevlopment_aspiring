@@ -35,7 +35,7 @@ document.body.addEventListener("click", (event)=>{
     const x = event.clientX; //position relative to the window
     const y = event.clientY;
   
-    circle.style.left = `${x-25}px` 
+    circle.style.left = `${x-25}px`  
     circle.style.top= `${y-25}px`
   
   
@@ -43,7 +43,7 @@ document.body.addEventListener("click", (event)=>{
     circle.style.backgroundColor = color[Math.floor(Math.random()*color.length)];
     document.body.appendChild(circle);
   
-    setTimeout(()=>{
+    setTimeout(()=>{ // removes the circle after 4 seconds
       circle.remove();
     } ,4000)
   })

@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Drama Notanki</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        #third {
+            background-color: yellow;
+        }
+    </style>
 </head>
-<body style="background-color: black; color: white; font-size: 20px;">
+<body>
     <div id="root">
         <h1 id="first" class="header1">JavaScript</h1>
         <h2 id="second" class="header">Topics covered so far</h2>
-        <ul id="third" class="header2" style="background-color: yellow;"> 
+        <ul id="third" class="header2">
             <li>CN</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JS</li>
         </ul>
-        <script src="dom.js"> </script>
-
     </div>
+    <script src="dom.js" defer></script>
 </body>
 </html>

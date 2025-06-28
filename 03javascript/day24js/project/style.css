@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Header table for receipt number */
+table.r1 {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Main header with logo */
+h3 {
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+/* Receipt details table */
+form table {
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+form table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Paragraphs below table */
+.pr, p {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Emphasized labels */
+b {
+  color: #000;
+}
+
+/* Footer remarks styling */
+p:last-child {
+  margin-bottom: 50px;
+}

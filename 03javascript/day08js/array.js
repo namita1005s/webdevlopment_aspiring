@@ -65,6 +65,7 @@ console.log(arr.includes(11));// false
 console.log(arr);// [1,2,3,4,5,6,7,8,9,10,'hello','world',5]
 console.log(arr.slice(2));// [3,4,5,6,7,8,9,10,'hello','world',5]
 console.log(arr.slice( 5));// [6,7,8,9,10,'hello','world',5]
+console.log(arr.slice(6,8)); // [7,8]
 console.log(arr.slice(2,5));// [3,4,5]
 
 // splice IMPORTANT

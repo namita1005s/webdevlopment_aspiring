@@ -86,12 +86,12 @@ console.log(now); // 1741099164225
 // console.log(de); // 2022-10-20T00:00:00.000Z
 // console.log(de.toDateString()); // Thu Oct 20 2022
 
-// const dat = new Date("2015-03-25T10:10:12");
+// const dat = new Date("2015-03-25T10:10:12"); // string date 1 based month hoga
 // console.log(dat.toDateString()); // Wed Mar 25 2015
-// // year /month /date /hours /minutes /seconds /milliseconds
+// // year /month /date /hours /minutes /seconds /milliseconds  // 1 value denge to millisecond hog or do value dena compulsory h
 // //Number : 0 based start hoga
 // // example-
-// const date1 = new Date(2024, 4, 28);
+// const date1 = new Date(2024, 4, 28); // 0 based month hoga no date
 // console.log(date1); // 2024-05-27T18:30:00.000Z
 // // 0 based h to month 4 hoga
 // // 0 based h to date 28 hoga

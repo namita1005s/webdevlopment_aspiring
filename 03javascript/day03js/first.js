@@ -51,7 +51,7 @@ console.log(Number(account)); // NaN (Not a Number)
 
 // null                      remind
 let n = null;
-console.log(typeof n); // object
+console.log(typeof n); // "object" (historical bug) 
 console.log(Number(n)); // 0
 
 // undefined                  remind
@@ -86,6 +86,7 @@ console.log(Boolean(e)); // false
 // operators
 // Arithmetic operators, Assignment operators, Comparison operators, Logical operators, Bitwise operators, Ternary operators
 console.log(10*3+18/2-5); // 30+9-5 = 34
+
 
 // Arithmetic operators (+, -, *, /, %, **)
 //periority
