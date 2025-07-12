@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #0b7dda;
+    }
+
+    #weatherInfo {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+   <div class="container">
+    <h2>Check Current Temperature</h2>
+
+    <label for="location">Enter Location:</label><br>
+    <input type="text" id="location" placeholder="e.g. Delhi"><br><br>
+
+    <button>Get Weather</button>
+
+    <div id="weatherInfo" class="weather-info"></div>
+  </div>
+    
+
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
