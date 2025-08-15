@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    position: relative;
+    left: 60px;
+}
+
+.options{
+   padding-top: 30px;
+}
+
+.category-btn  , .pro{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+.searchbar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 20px;    
+    
+
+    
+}
+
+.Profile{
+ 
+    padding-left: 20px;
+}
+
+.card{
+    background-color: green;
+    
+}
+.middle{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    background-color: beige;
+}
+
+button{
+    background-color: yellowgreen;
+}
